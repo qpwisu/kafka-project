@@ -1,0 +1,59 @@
+# === macOS ===
+.DS_Store
+
+# === IntelliJ / IDEA ===
+.idea/
+*.iml
+
+# === VSCode ===
+.vscode/
+
+# === Logs ===
+logs/
+*.log
+
+# === Build ===
+/target/
+build/
+
+# === Gradle ===
+.gradle/
+!gradle-wrapper.jar
+build/
+
+# === Maven ===
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === OS/Tool Specific ===
+*.swp
+*~
+*.bak
+*.tmp
+
+# === Node (optional, if frontend exists) ===
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# === 환경설정 파일 ===
+.env
+.env.*
+
+# === Kafka 실습 중 생길 수 있는 설정 파일 ===
+*.properties
+*.db
+
+# === Docker ===
+*.pid
